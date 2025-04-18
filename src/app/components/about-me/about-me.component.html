@@ -11,9 +11,9 @@
   <div class="container">
     <div class="left-side">
       <p class="description">{{'ABOUT_SECTION.DESCRIPTION' | translate}}</p>
-      <a href="cv.pdf" download="CV">
+      <a [href]="'CV_' + (selectedLanguage === 'it' ? 'Sylvie_Molinatto' : 'Sylvie_Molinatto_en') + '.pdf'" target="_blank" rel="noopener noreferrer">
         <button type="button" class="btn btn-outline-secondary">
-            <span> {{ 'ABOUT_SECTION.DOWNLOAD_CV' | translate }} </span>
+          <span> {{ 'ABOUT_SECTION.DOWNLOAD_CV' | translate }} </span>
         </button>
       </a>
     </div>
