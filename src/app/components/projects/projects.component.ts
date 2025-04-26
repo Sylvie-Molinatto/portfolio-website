@@ -34,12 +34,20 @@ export class ProjectsComponent {
   
   loadProjects() {
     this.translate.get([
+      'PROJECTS_SECTION.MASTER_THESIS_DESCRIPTION',
       'PROJECTS_SECTION.PORTFOLIO_DESCRIPTION', 
       'PROJECTS_SECTION.TEAMHUB_DESCRIPTION', 
       'PROJECTS_SECTION.TMS_DESCRIPTION', 
       'PROJECTS_SECTION.URBANHUB_DESCRIPTION'
     ]).subscribe(translations => {
       this.projects = [
+        {
+          title: 'Master Thesis',
+          description: translations['PROJECTS_SECTION.MASTER_THESIS_DESCRIPTION'],
+          keywords: ['React', 'Express', 'MySQL', 'Sequelize', 'OpenAPI', 'Frontend Development', 'Backend Development'],
+          link: 'https://github.com/orgs/polito-ThesisManagement/repositories',
+          image: 'projects/PoliTO_Thesis.png'
+        },
         {
           title: 'Personal Portfolio',
           description: translations['PROJECTS_SECTION.PORTFOLIO_DESCRIPTION'],
@@ -57,7 +65,7 @@ export class ProjectsComponent {
         {
           title: 'Thesis Management System',
           description: translations['PROJECTS_SECTION.TMS_DESCRIPTION'],
-          keywords: ['React', 'Antd', 'Node.js', 'SQLite', 'Scrum', 'Backend Development', 'Project Management'],
+          keywords: ['React', 'Antd', 'Node.js', 'SQLite', 'Scrum', 'Frontend Development', 'Backend Development', 'Project Management'],
           link: 'https://github.com/Sylvie-Molinatto/ThesisManagement-Group09',
           image: 'projects/ThesisManagementSystem.png'
         },

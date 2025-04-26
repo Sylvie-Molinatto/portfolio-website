@@ -25,34 +25,54 @@
     margin-bottom: 1.5rem;
 }
 
+.info-row {
+    display: flex;
+    gap: 1rem;
+}
+
 .description {
     margin-bottom: 1em;
 }
 
 .bold {
     font-weight: bold;
-    padding-right: 1.5em;
 }
 
-.info-row {
-    overflow: auto;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 999px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 
     .right-side {
-        margin-top: 1em;
-        padding-top: 1em;
+        order: -1;
         margin-left: 0;
     }
 
     .left-side {
-        margin-bottom: 1em;
-        padding-bottom: 1em;
         margin-right: 0;
+    }
+}
+
+@media (max-width: 418px) {
+    .info-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .info-row span {
+        width: 100%;
+    }
+
+    .email-link {
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        max-width: 70vw;
     }
 }

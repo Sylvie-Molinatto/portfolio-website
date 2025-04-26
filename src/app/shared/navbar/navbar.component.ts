@@ -12,10 +12,10 @@ import { NgbDropdownModule, NgbOffcanvasModule, NgbOffcanvas } from '@ng-bootstr
   encapsulation: ViewEncapsulation.None
 })
 export class NavbarComponent{
-  @Input() selectedLanguage!: string;
+  @Input() selectedLanguage!: 'gb' | 'it';
   @Input() selectedTheme!: 'light' | 'dark';
   @Input() languageMap!: { [key: string]: string };
-  @Input() selectLanguage!: (language: string) => void;
+  @Input() selectLanguage!: (language: 'gb' | 'it') => void;
   @Input() getLanguageName!: () => string;
   @Input() toggleTheme!: () => void;
   

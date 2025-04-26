@@ -12,18 +12,14 @@
     <div class='steps' id='steps'>
       <div class='step' *ngFor="let event of events; let i = index">
         <div class='number completed'>
-          <div *ngIf="i === 0" class="custom-spinner"></div>
-          <svg *ngIf="i !== 0" viewBox="0 0 512 512" width="100" title="check">
+          <svg viewBox="0 0 512 512" width="100" title="check">
             <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" />
           </svg>
         </div>
         <div class="container-info">
           <div class='info'>
             <div class="left-info">
-              <h6 class="dates">{{ event.startYear }} - {{ event.endYear }}</h6>
-              <h5 class="location">
-                {{ event.location }}
-              </h5>
+              <h6 class="dates">{{event.startMonth}} {{ event.startYear }} - {{ event.endMonth}} {{ event.endYear }} • {{ event.location}}</h6>
               <h3 class="event-title">
                 {{ event.title }}
               </h3>
@@ -34,8 +30,21 @@
               <img *ngIf="selectedTheme === 'dark'" [src]="event.logoWhite" alt="logo" class="logo" width="80"/>
             </div>
           </div>
-          <p class='text' *ngIf="event.description">
-            {{ event.description }}
+          <p class='text' *ngIf="event.thesis">
+            <span class="bold">{{ 'EDUCATION_SECTION.THESIS' | translate }}: </span> 
+            <a *ngIf="event.thesisLink" [href]="event.thesisLink" target="_blank" rel="noopener noreferrer" class="thesis-link">
+              {{ event.thesis }}
+            </a>
+            <span *ngIf="!event.thesisLink">{{ event.thesis }}</span>
+          </p>
+          <p class='text'>
+            <span class="bold">{{ 'EDUCATION_SECTION.FINAL_GRADE' | translate }}: </span> {{ event.grade }}
+          </p>
+          <p class='text'>
+            <span class="bold">{{ 'EDUCATION_SECTION.COURSES' | translate }}: </span> 
+            <span *ngFor="let course of event.courses; let last = last" class="course">
+              {{ course }}<span *ngIf="!last"> • </span>
+            </span>
           </p>
       </div>
     </div>

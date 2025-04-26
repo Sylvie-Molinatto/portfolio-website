@@ -10,10 +10,10 @@
   </div>
   <div class="container">
     <div class="left-side">
-      <p class="description">{{'ABOUT_SECTION.DESCRIPTION' | translate}}</p>
-      <a href="cv.pdf" download="CV">
+      <p class="description" [innerHTML]="'ABOUT_SECTION.DESCRIPTION' | translate"></p>
+      <a [href]="'CV_' + (selectedLanguage === 'it' ? 'Sylvie_Molinatto' : 'Sylvie_Molinatto_en') + '.pdf'" target="_blank" rel="noopener noreferrer">
         <button type="button" class="btn btn-outline-secondary">
-            <span> {{ 'ABOUT_SECTION.DOWNLOAD_CV' | translate }} </span>
+          <span> {{ 'ABOUT_SECTION.DOWNLOAD_CV' | translate }} </span>
         </button>
       </a>
     </div>
@@ -25,7 +25,7 @@
         <span class="bold"> {{'ABOUT_SECTION.DATE_OF_BIRTH' | translate }}:</span> <span> 06/12/2000 </span>
       </div>
       <div class="info-row">
-        <span class="bold"> Email:</span> <span> sylvie.molinatto00&#64;gmail.com </span>
+        <span class="bold"> Email:</span> <a href="mailto:sylvie.molinatto00@gmail.com"> sylvie.molinatto00&#64;gmail.com </a>
       </div>
       <div class="info-row">
         <span class="bold"> {{ 'ABOUT_SECTION.FROM' | translate }}:</span> <span> Condove (TO), Italy </span>
