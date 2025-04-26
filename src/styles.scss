@@ -17,14 +17,14 @@ $theme: mat.define-theme((
 
 // Globar variables
 $background-color-light: #F7F7F8;
-$background-color-dark: #3B383E;
+$background-color-dark: #323b4c;
 $surface-color-light: white;
 $surface-color-dark: lighten($background-color-dark, 5%);
 $text-color-light: #000000;
 $text-color-dark: #FFFFFF;
 $primary-color: #FA8993;
 $secondary-color: #AD6F74;
-$tertiary-color: #5C3D3F;
+$tertiary-color: #7b7b7b;
 $error-color: #F44336;
 $placeholder-color: #AEAEAE;
 
@@ -100,6 +100,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem;
 }
 
+/* Stili per i link */
+a {
+  color: var(--text-color);
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
 .btn-outline-secondary {
   color: var(--text-color);
   background: transparent;
@@ -109,4 +117,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--background-color);
     transform: scale(1.09);
   }
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--primary-color);
 }

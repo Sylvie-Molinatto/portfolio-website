@@ -43,6 +43,19 @@ body {
   margin-left: auto;
 }
 
+.logo {
+  margin-left: 1em;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.dates {
+  color: var(--tertiary-color);
+  margin-top: 0px;
+}
+
 .step {
   display: flex;
   position: relative;
@@ -51,7 +64,7 @@ body {
     content: "";
     position: absolute;
     left: 15px;
-    top: 32px;
+    top: 30.99px;
     height: 0;
     width: 2px;
     background-color: var(--text-color);
@@ -66,7 +79,6 @@ body {
   .event-title {
     font-size: 16px;
     font-weight: 600;
-    margin: 0 0 px;
     color: var(--text-color);
     bottom: 5px;
     position: relative;
@@ -122,18 +134,8 @@ body {
   }
 }
 
-.custom-spinner {
-  border: 3px solid var(--placeholder-color); 
-  border-top: 3px solid var(--background-color); 
-  border-radius: 50%; 
-  width: 20px; 
-  height: 20px; 
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.course {
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

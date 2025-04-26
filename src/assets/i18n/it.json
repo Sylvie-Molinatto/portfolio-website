@@ -7,12 +7,12 @@
     "MADE_BY": "Realizzato da",
     
     "HOME_SECTION":{
-        "ROLE": "Studentessa magistrale in Ingegneria Informatica",
+         "ROLE": "Laureata Magistrale in Ingegneria Informatica",
         "LEARN_MORE": "Vuoi saperne di più sul mio percorso in tecnologia e software? Esplora liberamente!"
     },
 
     "ABOUT_SECTION": {
-        "DESCRIPTION": "Attualmente sto conseguendo la laurea magistrale in Ingegneria Informatica, dopo aver completato la laurea triennale in Ingegneria Gestionale al Politecnico di Torino. La mia passione risiede nella dinamica intersezione tra tecnologia e gestione, con un particolare interesse per lo sviluppo software e l’innovazione. Mentre lavoro alla mia tesi finale, sono entusiasta delle sfide e delle opportunità che mi aspettano e non vedo l'ora di iniziare il mio percorso professionale nell'industria tecnologica.",
+        "DESCRIPTION": "Ho conseguito di recente la <span class='highlight'>laurea magistrale in Ingegneria Informatica</span> al <span class='highlight'>Politecnico di Torino</span>, dopo aver conseguito la <span class='highlight'>laurea triennale in Ingegneria Gestionale</span> presso la stessa università. Il mio percorso accademico mi ha permesso di esplorare diversi aspetti dello <span class='highlight'>sviluppo software</span>, sviluppando una crescente passione per la realizzazione di <span class='highlight'>soluzioni digitali accessibili incentrate sull’utente</span>.<br> Sono particolarmente motivata dal desiderio di progettare sistemi che rispondano concretamente alle esigenze degli utenti, con forte attenzione all’<span class='highlight'>accessibilità</span>, all’<span class='highlight'>usabilità</span> e a un <span class='highlight'>design pulito</span>. Mi piace lavorare in <span class='highlight'>team Agile</span> e cerco costantemente di migliorare sia la <span class='highlight'>qualità del prodotto</span> sia la <span class='highlight'>collaborazione tra i membri del gruppo</span>. Ora sono entusiasta di <span class='highlight'>mettere in pratica le mie competenze</span>, <span class='highlight'>ampliare le mie conoscenze</span> e <span class='highlight'>contribuire a progetti di grande impatto</span> mentre inizio il mio percorso professionale nel <span class='highlight'>settore tecnologico</span>.",
         "NAME": "Nome",
         "DATE_OF_BIRTH": "Data di nascita",
         "FROM": "Da",
@@ -20,12 +20,54 @@
     },
 
     "EDUCATION_SECTION":{
-        "BACHELOR": "Laurea triennale in Ingegneria Gestionale",
-        "MASTER": "Laurea magistrale in Ingegneria Informatica",
+        "BACHELOR": "Laurea triennale in Ingegneria Gestionale (L-8, Ingegneria dell'informazione)",
+        "MASTER": "Laurea magistrale in Ingegneria Informatica (orientamento Software)",
         "HIGH_SCHOOL": "Diploma di maturità scientifica",
-        "PRESENT": "Presente",
         "BACHELOR_INFO": "Ho frequentato la laurea triennale in Ingegneria Gestionale (L-8, Ingegneria dell'informazione) presso il Politecnico di Torino.",
-        "MASTER_INFO": "Attualmente sto conseguendo la laurea magistrale in Ingegneria Informatica (orientamento Software) presso il Politecnico di Torino."
+        "MASTER_INFO": "Attualmente sto conseguendo la laurea magistrale in Ingegneria Informatica (orientamento Software) presso il Politecnico di Torino.",
+        "APRIL": "Aprile",
+        "JUNE": "Giugno",
+        "SEPTEMBER": "Settembre",
+        "DECEMBER": "Dicembre",
+        "FINAL_GRADE": "Voto finale",
+        "THESIS": "Tesi",
+        "COURSES": "Corsi",
+        "BACHELOR_THESIS": "Tool per analisi del Gender Gap e simulazione ricerca di un team work",
+        "ANALISI_MATEMATICA": "Analisi Matematica I",
+        "INFORMATICA": "Informatica",
+        "CHIMICA": "Chimica",
+        "STRUMENTI_I40": "Strumenti dell'ingegneria per l'Industria 4.0",
+        "ALGEBRA": "Algebra lineare e geometria",
+        "FISICA": "Fisica I",
+        "BASI_DI_DATI": "Basi di dati",
+        "STATISTICA": "Statistica",
+        "ANALISI_MATEMATICA_2": "Analisi Matematica II",
+        "RICERCA_OPERATIVA": "Ricerca operativa",
+        "ECONOMIA": "Economia e organizzazione aziendale",
+        "SISTEMI_DI_PRODUZIONE": "Sistemi di produzione",
+        "SISTEMI_ELETTRICI_INDUSTRIALI": "Sistemi elettrici industriali",
+        "FISICA_2": "Fisica II",
+        "PGP": "Programmazione e gestione della produzione",
+        "PROGRAMMAZIONE_OGGETTI": "Programmazione ad oggetti",
+        "DIRITTO_PRIVATO": "Elementi di diritto privato",
+        "SISTEMI_TELEMATICI": "Sistemi telematici",
+        "PROGETTAZIONE_SERVIZI_WEB": "Progettazione di servizi web e reti di calcolatori",
+        "TECNICHE_DI_PROGRAMMAZIONE": "Tecniche di programmazione",
+        "AFFIDABILITA": "Affidabilità, sicurezza e manutenzione per l'azienda",
+        "MASTER_THESIS": "Riprogettazione Agile incentrata sull'utente del sistema di gestione delle tesi per il Politecnico di Torino",
+        "ARCHITETTURE": "Architetture dei sistemi di elaborazione",
+        "BIG_DATA": "Big Data: architectures and data analytics",
+        "DATA_SCIENCE": "Data Science e Tecnologie per le Basi di Dati",
+        "FORMAL_LANGUAGES": "Formal Languages and compilers",
+        "HUMAN_COMPUTER_INTERACTION": "Human Computer Interaction",
+        "INFORMATION_SYSTEMS": "Information Systems",
+        "MOBILE_APP": "Mobile Application Development",
+        "PDS": "Programmazione di sistema",
+        "SICUREZZA": "Sicurezza dei sistemi informativi",
+        "SOFTWARE_ENGINEERING": "Software Engineering",
+        "SOFTWARE_ENGINEERING_2": "Software Engineering II",
+        "TSR": "Tecnologie e servizi di rete",
+        "WEB_APP": "Web Applications I"
     },
 
     "CONTACT_SECTION": {
@@ -44,7 +86,8 @@
     },
 
     "PROJECTS_SECTION":{
-        "PORTFOLIO_DESCRIPTION": "Applicazione web responsive che mostra i miei progetti, competenze ed esperienze.",
+        "MASTER_THESIS_DESCRIPTION": "Progetto di tesi magistrale con l'obiettivo di riprogettare il sistema di gestione delle tesi del Politecnico di Torino, con un focus sull'analisi dei requisiti e sull'esperienza utente. Il risultato finale è composto da una specifica OpenAPI e una applicazione web che consente agli studenti di consultare efficacemente le proposte di tesi.",
+        "PORTFOLIO_DESCRIPTION": "Applicazione web che presenta il mio profilo, le competenze e le esperienze acquisite, con un’interfaccia chiara, moderna e facilmente navigabile. Progetto personale sviluppato con l’obiettivo di creare un portfolio online e, allo stesso tempo, approfondire l’utilizzo di Angular. Il sito è stato pubblicato su GitHub Pages.",    
         "TEAMHUB_DESCRIPTION": "Applicazione mobile progettata per facilitare il lavoro di squadra fornendo funzionalità per la gestione dei task, la collaborazione dei team e il monitoraggio delle prestazioni.",
         "TMS_DESCRIPTION": "Applicazione web che consente agli studenti di gestire i loro progetti di tesi, ai docenti di supervisionarli e agli impiegati della segreteria di monitorare il processo.",
         "URBANHUB_DESCRIPTION": "Prototipo di applicazione web ad alta fedeltà mirato ad ottimizzare il processo di pianificazione dei viaggi utilizzando un'assistenza AI simulata. Offre agli utenti suggerimenti di percorso personalizzati, raccomandazioni di attrazioni e opzioni di trasporto.",

@@ -7,12 +7,12 @@
     "MADE_BY": "Made by",
 
     "HOME_SECTION": {
-        "ROLE": "MSc Student in Computer Engineering",
+        "ROLE": "Computer Engineering Graduate",
         "LEARN_MORE": "Want to learn more about my path in technology and software? Feel free to explore!"
     },
 
     "ABOUT_SECTION": {
-        "DESCRIPTION": "I’m currently pursuing an MSc in Computer Engineering, following a bachelor’s degree in Management Engineering from Politecnico di Torino. My passion lies in the dynamic intersection of technology and management, with a particular focus on software development and innovation. As I work on my final thesis, I’m eager to embrace the challenges and opportunities that lie ahead, and I look forward to beginning my professional journey in the tech industry.",
+        "DESCRIPTION": "I recently completed my <span class='highlight'>Master’s Degree in Computer Engineering</span> at <span class='highlight'>Politecnico di Torino</span>, after earning a <span class='highlight'>Bachelor’s in Engineering And Management</span> from the same university. My academic journey has allowed me to explore the spectrum of <span class='highlight'>software development</span>, with a growing passion for building <span class='highlight'>user-centered</span> and <span class='highlight'>accessible digital solutions</span>.<br> I’m particularly driven by the goal of designing systems that truly serve users, with strong attention to <span class='highlight'>accessibility</span>, <span class='highlight'>usability</span>, and <span class='highlight'>clean design</span>. I enjoy working in <span class='highlight'>Agile teams</span> and constantly seek to improve both <span class='highlight'>product quality</span> and <span class='highlight'>team collaboration</span>. I’m now excited to <span class='highlight'>apply my skills</span>, <span class='highlight'>expand my knowledge</span>, and <span class='highlight'>contribute to impactful projects</span> as I begin my professional journey in the <span class='highlight'>tech industry</span>.",
         "NAME": "Name",
         "DATE_OF_BIRTH": "Date of Birth",
         "FROM": "From",
@@ -20,12 +20,54 @@
     },
 
     "EDUCATION_SECTION":{
-        "BACHELOR": "Bachelor's Degree in Management Engineering",
-        "MASTER": "Master's Degree in Computer Engineering",
+        "BACHELOR": "Bachelor's Degree in Engineering and Management (L-8, Information Engineering)",
+        "MASTER": "Master's Degree in Computer Engineering (Software track)", 
         "HIGH_SCHOOL": "High School Diploma in Science",
-        "PRESENT": "Current",
         "BACHELOR_INFO": "I attended the bachelor’s degree in Management Engineering (L-8, Information Engineering) at Politecnico di Torino.",
-        "MASTER_INFO": "I’m currently pursuing the master’s degree in Computer Engineering (Software orientation) at Politecnico di Torino."
+        "MASTER_INFO": "I’m currently pursuing the master’s degree in Computer Engineering (Software orientation) at Politecnico di Torino.",
+        "APRIL": "April",
+        "JUNE": "June",
+        "SEPTEMBER": "September",
+        "DECEMBER": "December",
+        "FINAL_GRADE": "Final Grade",
+        "THESIS": "Thesis",
+        "COURSES": "Courses",
+        "BACHELOR_THESIS": "Tool for gender gap analysis and teamwork research simulation",
+        "ANALISI_MATEMATICA": "Mathematical Analysis I",
+        "INFORMATICA": "Computer Science",
+        "CHIMICA": "Chemistry",
+        "STRUMENTI_I40": "Engineering tools for Industry 4.0",
+        "ALGEBRA": "Linear Algebra and Geometry",
+        "FISICA": "Physics I",
+        "BASI_DI_DATI": "Database Systems",
+        "STATISTICA": "Statistics",
+        "ANALISI_MATEMATICA_2": "Mathematical Analysis II",
+        "RICERCA_OPERATIVA": "Operations Research",
+        "ECONOMIA": "Economics and Business Organization",
+        "SISTEMI_DI_PRODUZIONE": "Production Systems",
+        "SISTEMI_ELETTRICI_INDUSTRIALI": "Industrial Electrical Systems",
+        "FISICA_2": "Physics II",
+        "PGP": "Production Programming and Management",
+        "PROGRAMMAZIONE_OGGETTI": "Object-Oriented Programming",
+        "DIRITTO_PRIVATO": "Elements of Private Law",
+        "SISTEMI_TELEMATICI": "Telematics Systems",
+        "PROGETTAZIONE_SERVIZI_WEB": "Web Services Design and Computer Networks",
+        "TECNICHE_DI_PROGRAMMAZIONE": "Programming Techniques",
+        "AFFIDABILITA": "Reliability, Security and Maintenance for the Company",
+        "MASTER_THESIS": "User-Centric Agile Redesign of the Thesis Management System for Politecnico di Torino",
+        "ARCHITETTURE": "Computer Architectures",
+        "BIG_DATA": "Big Data: architectures and data analytics",
+        "DATA_SCIENCE": "Data Science and Database Technology",
+        "FORMAL_LANGUAGES": "Formal Languages and Compilers",
+        "HUMAN_COMPUTER_INTERACTION": "Human Computer Interaction",
+        "INFORMATION_SYSTEMS": "Information Systems",
+        "MOBILE_APP": "Mobile Application Development",
+        "PDS": "System and device programming",
+        "SICUREZZA": "Information Systems Security",
+        "SOFTWARE_ENGINEERING": "Software Engineering",
+        "SOFTWARE_ENGINEERING_2": "Software Engineering II",
+        "TSR": "Computer network technologies and services",
+        "WEB_APP": "Web Applications I"
     },
 
     "CONTACT_SECTION": {
@@ -44,7 +86,8 @@
     },
 
     "PROJECTS_SECTION":{
-        "PORTFOLIO_DESCRIPTION": "A responsive web application that showcases my projects, skills, and experiences." ,
+        "MASTER_THESIS_DESCRIPTION": "Master's thesis project aimed at redesigning the thesis management system of Politecnico di Torino, focusing on requirements analysis and user experience. The final result consists of an OpenAPI specification and a web application that allows students to effectively consult thesis proposals.",
+        "PORTFOLIO_DESCRIPTION": "A web application showcasing my profile, skills, and experiences, featuring a clear, modern, and easily navigable interface. This personal project was developed to create an online portfolio while also deepening my understanding of Angular. The site has been published on GitHub Pages.",
         "TEAMHUB_DESCRIPTION": "A mobile application designed to facilitate effective teamwork by providing features for task management, team collaboration, and performance tracking.",
         "TMS_DESCRIPTION": "A web application that allows students to manage their thesis projects, teachers to supervise them and secretary clerks to monitor the process.",
         "URBANHUB_DESCRIPTION": "A high-fidelity web application prototype aimed at optimizing the trip planning process using a simulated AI assistance. It offers users personalized route suggestions, attraction recommendations, and transportation options.",
