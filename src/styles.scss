@@ -29,15 +29,14 @@ $error-color: #F44336;
 $placeholder-color: #AEAEAE;
 
 
-:root {
-  @include mat.all-component-themes($theme);
+:root, [data-theme="light"] {
   --primary-color: #{$primary-color};
   --secondary-color: #{$secondary-color};
   --tertiary-color: #{$tertiary-color};
   --background-color: #{$background-color-light};
   --surface-color: #{$surface-color-light};
   --text-color: #{$text-color-light};
-  --placeholder-color: #{$placeholder-color}; 
+  --placeholder-color: #{$placeholder-color};
   --error-color: #{$error-color};
 }
 
